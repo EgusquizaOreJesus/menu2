@@ -18,6 +18,7 @@
 
 
 int main() {
+    std::cout << "hola";
     App *app = initApp();
     if (app == NULL) {
         return 1;
